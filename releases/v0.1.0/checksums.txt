@@ -1,0 +1,4 @@
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  checksums.txt
+6c3b0f05e923cf956c27031ba2e60a8f258960c45d699cbc50f6e56c19655fa3  cli-go-test-darwin-amd64
+6e043b87e768a1b5ad75b98601bdbfd360d43794d74777bd4dedce5d1cb3dff4  cli-go-test-linux-amd64
+d468cf53a39944b0969d6ab4b211d6cdadcd9a555f518f23277dd3418e8cf3b0  cli-go-test-windows-amd64.exe
