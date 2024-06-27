@@ -36,23 +36,17 @@ clean:
 	@rm -rf $(BUILD_DIR)
 
 # Create a release: build, generate checksums, and tag
-release: build checksums tag
+release: build checksums 
 
 # Generate checksums for the binaries
 checksums:
 	@cd $(BUILD_DIR) && sha256sum * > checksums.txt
-
-# Tag the release in git
-tag:
-	@git tag -a $(VERSION) -m "Release $(VERSION)"
-	@git push origin $(VERSION)
 
 # Utility target to show help
 help:
 	@echo "Usage:"
 	@echo "  make build     - Build the project for multiple platforms"
 	@echo "  make clean     - Clean the build artifacts"
-	@echo "  make release   - Build, generate checksums, and tag the release"
-	@echo "  make tag       - Tag the current version in git"
+	@echo "  make release   - Build, generate checksums"
 	@echo "  make help      - Show this help message"
 
