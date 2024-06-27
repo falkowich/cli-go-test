@@ -51,7 +51,7 @@ example to create 1000 records and output to file
 
 - [x] read csv
 - [x] convert csv to struct
-- [ ] post to ise » check this out: (https://github.com/CiscoISE/ciscoise-go-sdk)[https://github.com/CiscoISE/ciscoise-go-sdk]
+- [ ] post to ise » check this out: [ciscoise-go-sdk](https://github.com/CiscoISE/ciscoise-go-sdk)
  - [ ] macaddresses
  - [ ] hostname
  - [ ] description
