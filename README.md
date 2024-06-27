@@ -21,11 +21,22 @@ Download the latest "release" and start the thingie..
 
 `cli-go-test-darwin-amd64 --help`
 
+## instructions sorta
+
+### generate random data
+
+example:
+`cli-go-test generate --records 1000 --filename output.csv`
+
+### import csv
+
+1. Create .env file from .env-default and set the correct credentials
+2. `cli-go-test import --filename output.csv`
+
 # TODO
 
 ## Create random stuff to csv
 
-`generate --records 1000 --filename output.csv`
 
 - [x] macaddresses 
 - [x] hostnames
