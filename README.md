@@ -25,7 +25,8 @@ Download the latest "release" and start the thingie..
 
 ### generate random data
 
-example:
+example to create 1000 records and output to file
+
 `cli-go-test generate --records 1000 --filename output.csv`
 
 ### import csv
